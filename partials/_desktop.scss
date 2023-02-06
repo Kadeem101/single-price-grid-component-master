@@ -1,0 +1,31 @@
+@import 'variables';
+
+@media (min-width: $desktop){
+body{
+  padding: 5rem 25rem;
+}
+
+.section-one ,
+.section-two ,
+.section-three{
+  padding: 2rem 3rem;
+}
+
+.container{
+  display: flex;
+}
+
+.section-two ,
+.section-three {
+
+  width: 50%;
+}
+
+.section-two{
+  border-radius: 0 0 0 .5rem;
+}
+
+.section-three{
+  border-radius: 0 0 .5rem 0;
+}
+}

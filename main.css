@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button {
+  font: inherit;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  * {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: hsl(204deg, 43%, 93%);
+  padding: 1rem 1rem;
+  color: white;
+}
+
+main {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+}
+
+h1 {
+  font-size: 1.125rem;
+}
+
+h2 {
+  font-size: 16.5008px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+  padding: 2rem 1rem;
+}
+
+.section-one {
+  background-color: white;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.section-one__heading-one, .section-one__heading-two {
+  margin-bottom: 1rem;
+}
+.section-one__heading-one {
+  color: hsl(179deg, 62%, 43%);
+}
+.section-one__heading-two {
+  color: hsl(71deg, 73%, 54%);
+}
+.section-one__description {
+  color: hsl(218deg, 22%, 67%);
+}
+
+.section-two {
+  background-color: hsl(179deg, 62%, 43%);
+}
+.section-two__heading-one {
+  margin-bottom: 1rem;
+}
+.section-two span {
+  font-weight: 700;
+  font-size: 2rem;
+  vertical-align: middle;
+  color: white;
+}
+.section-two__cost {
+  color: hsl(204deg, 43%, 93%);
+}
+.section-two__button {
+  background-color: hsl(71deg, 73%, 54%);
+  color: white;
+  font-weight: 700;
+  min-width: 100%;
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin-top: 2rem;
+}
+
+.section-three {
+  background-color: hsl(179deg, 61%, 49%);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.section-three__nav {
+  color: hsl(204deg, 43%, 93%);
+  margin-top: 1rem;
+}
+
+@media (min-width: 89.9375rem) {
+  body {
+    padding: 5rem 25rem;
+  }
+  .section-one,
+.section-two,
+.section-three {
+    padding: 2rem 3rem;
+  }
+  .container {
+    display: flex;
+  }
+  .section-two,
+.section-three {
+    width: 50%;
+  }
+  .section-two {
+    border-radius: 0 0 0 0.5rem;
+  }
+  .section-three {
+    border-radius: 0 0 0.5rem 0;
+  }
+}/*# sourceMappingURL=main.css.map */
